@@ -1,5 +1,3 @@
-run program 
+To run program 
 
-$ npm start
-
-40:15
+npm start
