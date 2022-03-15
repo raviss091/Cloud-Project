@@ -5,7 +5,8 @@ const mongoose = require('mongoose')
 const Article = require('./models/article')
 const methodOverride = require('method-override')
 
-mongoose.connect('mongodb://localhost/blog',
+const url='mongodb+srv://avenger:QTBTOh8cxZN9aZka@cluster0.dgf6n.mongodb.net/tutorial?retryWrites=true&w=majority'
+mongoose.connect(url,
 {
     useNewUrlParser : true, useUnifiedTopology: true, useCreateIndex: true
 }).then(()=>{
