@@ -1,5 +1,3 @@
-run program 
+To run program 
 
-$ npm run devStart
-
-40:15
+npm start
